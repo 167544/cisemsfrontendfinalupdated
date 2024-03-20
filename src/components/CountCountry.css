@@ -1,0 +1,41 @@
+.table-container {
+    width: 100%;
+    margin: 20px auto;
+    overflow-x: auto;
+  }
+  
+  .table-responsive {
+    overflow-y: auto;
+  }
+  thead{
+    width: 100px;
+  }
+  tbody{
+    width: 200px;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+  }
+  
+  .table th, .table td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .table th {
+ 
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th,td{
+   padding: 5px;
+  }
+ 
+  @media (max-width: 768px) {
+    .table {
+      font-size: 14px;
+    }
+  }

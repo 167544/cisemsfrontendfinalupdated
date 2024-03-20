@@ -1,0 +1,25 @@
+/* styles.css */
+#fileInput::-webkit-file-upload-button {
+    border: none; /* Remove border for Chrome */
+  }
+  
+  #fileInput::-webkit-file-upload-button:focus {
+    outline: none; /* Remove focus outline for Chrome */
+  }
+  
+  #fileInput::-ms-browse {
+    border: none; /* Remove border for Internet Explorer */
+  }
+  
+  #fileInput::-ms-browse:focus {
+    outline: none; /* Remove focus outline for Internet Explorer */
+  }
+  
+  #fileInput::file-selector-button {
+    border: none; /* Remove border for Firefox */
+  }
+  
+  #fileInput::file-selector-button:focus {
+    outline: none; /* Remove focus outline for Firefox */
+  }
+  
